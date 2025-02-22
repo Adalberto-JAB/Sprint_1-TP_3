@@ -1,0 +1,20 @@
+{
+  "name": "jobswithserver",
+  "version": "1.0.0",
+  "description": "Práctica de servidor con express",
+  "keywords": [
+    "NodeJS",
+    "Express"
+  ],
+  "license": "ISC",
+  "author": "JAB",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "servBas": "nodemon app.js",
+    "servConsult": "nodemon serverConsult.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
